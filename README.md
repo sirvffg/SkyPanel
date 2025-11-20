@@ -17,7 +17,7 @@ git clone https://github.com/sirvffg/SkyPanel/
 ```
 接着移动到网站目录，并设置权限
 ```
-mv SakuraPanel/* /data/wwwroot/my.panel.com/
+mv SkyPanel/* /data/wwwroot/my.panel.com/
 chown -R www:www /data/wwwroot/my.panel.com/
 ```
 然后进入到网站目录，分别编辑以下三个文件，修改数据库信息
