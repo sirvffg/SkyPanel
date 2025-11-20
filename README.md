@@ -15,14 +15,10 @@ __注意:__ 网站程序近期有较大改动，更新时请先阅读 Wiki 的 U
 - 实时流量统计
 - 美观的界面
 
-__在线预览:__ https://sakuracloud.cn/
-
-用户名：`Akkariin` 密码：`12345678`
-
 ## 安装和配置
 首先将项目 clone 到本地
 ```
-git clone https://github.com/ZeroDream-CN/SakuraPanel/
+git clone https://github.com/sirvffg/SkyPanel/
 ```
 接着移动到网站目录，并设置权限
 ```
@@ -44,22 +40,6 @@ chown -R www:www /data/wwwroot/my.panel.com/
 导入完成后，打开网站，注册一个新账号，然后在数据库中设置这个账号的 __group__ 字段为 `admin` 即可设置为管理员。
 
 ## 配套 Frps 服务端
-本面板需要专用 Frps 才能兼容，请访问我的另一个项目：https://github.com/ZeroDream-CN/SakuraFrp
+本面板需要专用 Frps 才能兼容，请访问[另一个项目](https://github.com/sirvffg/SkyFrp)
 
 请按照另一个项目的介绍在每个服务器节点上进行配置。
-
-Frpc 客户端无特殊需求，只要版本是 0.28.0 都可以兼容使用。
-
-## 许可协议
-> ~~本软件仅限个人非盈利使用，完整许可协议请查看 LICENSE 文件。~~
->
-> ~~如需用于商业行为（例如出租内网穿透），或者需要技术支持，请与我 [联系](https://github.com/ZeroDream-CN/SakuraPanel/issues/21)。~~
-
-转行做游戏了，此项目已经停止维护，想商用就直接用吧，不要用于违法用途就好。
-
-关于面板的安装和使用有不明白的可以加群 478112133 在群里问，但我平时比较忙不一定能看到，随缘解答。
-
-## 交流
-
-- 官方 Telegram 群：https://t.me/natfrp
-- 作者 QQ：204034
