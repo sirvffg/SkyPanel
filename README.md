@@ -1,10 +1,5 @@
-# SakuraPanel
-樱花内网穿透网页端源代码，2020 重制
-
-由于时间匆忙，没有写自动安装程序，所有操作需要手动完成。
-
-__注意:__ 网站程序近期有较大改动，更新时请先阅读 Wiki 的 Update 页面，根据教程来更新。
-
+# SkyPanel
+基于[ZeroDream-CN/SakuraPanel](https://github.com/ZeroDream-CN/SakuraPanel)二开 
 ## 功能和特性
 - 支持多用户
 - 支持用户组配置
